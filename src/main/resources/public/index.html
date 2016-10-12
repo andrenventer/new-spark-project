@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Spark & Intercooler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+<div id="heading" ic-get-from="/heading" ic-poll="0ms" ic-poll-repeats="1"></div>
+
+<button ic-get-from="/hello" ic-target="#message">Click</button>
+
+<div id="message"></div>
+
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/intercooler-1.0.1.min.js"></script>
+
+</body>
+</html>
